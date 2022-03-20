@@ -1,0 +1,19 @@
+f=@(x) x^2-x-12
+a=input('enter the value of a: such that f(a)*f(b)<0')
+b=input('enter the value of b: such that f(a)*f(b)<0')
+tol=input('enter the value of tolerance:')
+c=(a+b)/2
+while( abs(b-a) < tol)
+    if f(c)==0
+        fprint('c is a root')
+        exit
+    elseif f(a)*f(c)<0
+        b=c 
+    else clc
+        a=c
+    end
+    c=(a+b)/2
+    disp(c)
+end
+
+
