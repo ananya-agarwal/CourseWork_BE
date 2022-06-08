@@ -1,0 +1,26 @@
+lib used: 
+mtcnn
+matplotlib
+keras
+tensorflow
+cv2
+
+
+
+models used:
+mtcnn (only for face detection and face-mark detection)
+
+Haar Cascade Classifiers in opencv (face detection ): We will implement our use case using the Haar Cascade classifier.
+ Haar Cascade classifier is an effective object detection approach which was proposed by Paul Viola and Michael Jones in their paper, “Rapid Object Detection using a
+ Boosted Cascade of Simple Features” in 2001.
+ cv lib ke cascade classifer se  ke through we created the haar cascade classifier
+ 
+ knn
+
+
+
+classifier: 
+"Multi-task Cascaded Convolutional Neural Network": MTCNN is mainly based on 3 separate CNN models: P-Net, R-Net and O-Net. 
+The name of the P-Net comes from proposal network. 
+It looks for face in 12×12 sized frames. The mission of this network is to produce fast results. The name of R-Net comes from refine network.
+app: used for face detection.
